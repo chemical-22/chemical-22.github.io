@@ -28,12 +28,8 @@ h1 {
     -webkit-box-shadow:inset 0px 0px 0px 7px #0ABAFF;
     -moz-box-shadow:inset 0px 0px 0px 7px #0ABAFF;
     box-shadow:inset 0px 0px 0px 8px #0ABAFF;
-    transition:0.5s;
+    transition:0.3s;
 }
-
-
-
-
 
 .folders h3 {
     font-size: 1.5em;
