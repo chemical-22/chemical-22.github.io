@@ -27,8 +27,8 @@ h1 {
 .folders:hover {
     -webkit-box-shadow:inset 0px 0px 0px 7px #0ABAFF;
     -moz-box-shadow:inset 0px 0px 0px 7px #0ABAFF;
-    box-shadow:inset 0px 0px 0px 7px #0ABAFF;
-    transition:0.3s;
+    box-shadow:inset 0px 0px 0px 8px #0ABAFF;
+    transition:0.5s;
 }
 
 
