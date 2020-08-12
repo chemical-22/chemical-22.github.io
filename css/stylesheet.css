@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-    text-align: center; 
+    margin-left: 3.5%;
     color: #E8E1EF; 
     font-family: 'Heebo', sans-serif;
 }
@@ -12,20 +12,23 @@ h1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .folders {
+    padding: 10px;
     cursor: pointer;
-    display:inline-flex;
+    display:flex;
     align-items: center;
-    justify-content: center;
-    flex: 0 50%;
+    justify-content:start;
+    flex: 0 45%;
 }
 
 .folders:hover {
     -webkit-box-shadow:inset 0px 0px 0px 7px #0ABAFF;
     -moz-box-shadow:inset 0px 0px 0px 7px #0ABAFF;
     box-shadow:inset 0px 0px 0px 7px #0ABAFF;
+    transition:0.3s;
 }
 
 .folders h3 {
@@ -41,12 +44,12 @@ h1 {
 }
 
 /* Media Queries */
-@media screen and (max-width: 470px){
+@media screen and (max-width: 620px){
     .folders {
         cursor: pointer;
         display:inline-flex;
         align-items: center;
-        justify-content: center;
+        justify-content: start;
         flex: 0 100%;
     }
 
