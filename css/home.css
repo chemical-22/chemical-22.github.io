@@ -1,0 +1,57 @@
+body {
+    background-color: #0E0F0E;
+}
+
+h1 {
+    text-align: center; 
+    color: #E8E1EF; 
+    font-family: 'Heebo', sans-serif;
+}
+
+#folder-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.folders {
+    cursor: pointer;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 50%;
+}
+
+.folders:hover {
+    -webkit-box-shadow:inset 0px 0px 0px 7px #0ABAFF;
+    -moz-box-shadow:inset 0px 0px 0px 7px #0ABAFF;
+    box-shadow:inset 0px 0px 0px 7px #0ABAFF;
+}
+
+.folders h3 {
+    font-size: 1.5em;
+    color: #E8E1EF;
+    font-family: 'Heebo', sans-serif;
+    margin-left: 1em;
+}
+
+.folders img{
+    width: 100px; 
+    height: 100px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 470px){
+    .folders {
+        cursor: pointer;
+        display:inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex: 0 100%;
+    }
+
+    .folders img{
+        width: 75px; 
+        height: 75px;
+    }
+}
