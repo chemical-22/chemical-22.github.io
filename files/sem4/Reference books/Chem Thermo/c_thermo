@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="../../../css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemical Thermodynamics</title>
+</head>
+<body>
+    <div style="width: 100%; height: 100%; margin: auto;">
+        <h1>Chem Thermo Reference Books</h1>
+        
+            <div class="folders" onclick="location.href='https://github.com/chemical-22/chem-material/raw/master/files/sem4/Reference%20books/Chem%20Thermo/K%20V%20Narayan.pdf'">
+                <img src="../../../assets/pdf.png"/>
+                <h3>Data Structures and Algorithms pdf</h3>
+            </div>
+          
+    </div>
+</body>
+</html>
