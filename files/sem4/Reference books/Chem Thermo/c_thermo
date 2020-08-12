@@ -13,7 +13,7 @@
         
             <div class="folders" onclick="location.href='https://github.com/chemical-22/chem-material/raw/master/files/sem4/Reference%20books/Chem%20Thermo/K%20V%20Narayan.pdf'">
                 <img src="../../../assets/pdf.png"/>
-                <h3>Data Structures and Algorithms pdf</h3>
+                <h3>K V Narayanan</h3>
             </div>
           
     </div>
