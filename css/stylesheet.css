@@ -1,25 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body {
     background-color: #0E0F0E;
 }
 
 h1 {
-    text-align: center; 
+    margin-left: 3.5%;
     color: #E8E1EF; 
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 #folder-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .folders {
+    padding: 10px;
     cursor: pointer;
-    display:inline-flex;
+    display:flex;
     align-items: center;
-    justify-content: center;
-    flex: 0 50%;
+    justify-content:start;
+    flex: 0 45%;
 }
 
 .folders:hover {
@@ -29,14 +34,11 @@ h1 {
     transition:0.3s;
 }
 
-
-
-
-
 .folders h3 {
     font-size: 1.5em;
     color: #E8E1EF;
-    font-family: 'Heebo', sans-serif;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
     margin-left: 1em;
 }
 
@@ -46,12 +48,12 @@ h1 {
 }
 
 /* Media Queries */
-@media screen and (max-width: 470px){
+@media screen and (max-width: 620px){
     .folders {
         cursor: pointer;
         display:inline-flex;
         align-items: center;
-        justify-content: center;
+        justify-content: start;
         flex: 0 100%;
     }
 
