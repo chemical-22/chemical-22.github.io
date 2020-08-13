@@ -5,10 +5,29 @@ body {
 }
 
 h1 {
-    margin-left: 3.5%;
+    margin-left: 18px;
     color: #E8E1EF; 
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+}
+
+.title-container a {
+    margin-left: 3.5%;
+}
+.title-container img {
+    width: 32px;
+    height: 32px;
+}
+
+.title-container img:hover {
+    width: 36px;
+    height: 36px;
+    transition: 0.2s;
 }
 
 #folder-container {
