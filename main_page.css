@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    background-color: #0E0F0E;
+}
+
+h1 {
+    margin-left: 18px;
+    color: #E8E1EF; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+}
+
+.title-container a {
+    margin-left: 3.5%;
+}
+.title-container img {
+    width: 32px;
+    height: 32px;
+}
+
+.title-container img:hover {
+    width: 36px;
+    height: 36px;
+    transition: 0.2s;
+}
+
+#folder-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.folders {
+    padding: 10px;
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+    justify-content:start;
+    flex: 0 45%;
+}
+
+.folders:hover {
+    -webkit-box-shadow:inset 0px 0px 0px 7px #0ABAFF;
+    -moz-box-shadow:inset 0px 0px 0px 7px #0ABAFF;
+    box-shadow:inset 0px 0px 0px 8px #0ABAFF;
+    transition:0.3s;
+}
+
+.folders h3 {
+    font-size: 1.5em;
+    color: #E8E1EF;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 1em;
+}
+
+.folders img{
+    width: 100px; 
+    height: 100px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 620px){
+    .folders {
+        cursor: pointer;
+        display:inline-flex;
+        align-items: center;
+        justify-content: start;
+        flex: 0 100%;
+    }
+
+    .folders img{
+        width: 75px; 
+        height: 75px;
+    }
+}
