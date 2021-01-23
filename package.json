@@ -1,0 +1,24 @@
+{
+  "name": "chemical-22.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fmt": "prettier --print-width 120 --jsx-bracket-same-line --no-bracket-spacing --single-quote --tab-width 4 --use-tabs --write \"**/*.{html,css}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chemical-22/chemical-22.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chemical-22/chemical-22.github.io/issues"
+  },
+  "homepage": "https://github.com/chemical-22/chemical-22.github.io#readme",
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
